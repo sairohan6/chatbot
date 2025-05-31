@@ -1,6 +1,11 @@
-PROJECT/Backend
-# Ignore node_modules
+# Ignore node_modules everywhere
 node_modules/
+
+# Or explicitly ignore Frontend node_modules if you want
+Frontend/node_modules/
+
+# Ignore Backend node_modules if exists
+PROJECT/Backend/node_modules/
 
 # Ignore logs
 logs/
